@@ -1,3 +1,6 @@
+from app import add_nums
 
-def test_index():
-    assert 5 == 5
+
+def test_add_nums():
+    a, b = 2, 3
+    assert add_nums(a, b) == 5
